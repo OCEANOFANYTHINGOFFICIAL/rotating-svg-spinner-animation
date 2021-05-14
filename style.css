@@ -1,0 +1,11 @@
+.spinner{
+    height: 128px;
+    width: 128px;
+    align-items: center;
+    animation: spinner 0.7s linear infinite;
+}
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+}
